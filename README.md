@@ -45,14 +45,14 @@ git clone https://github.com/yourusername/rujak.git
 cd rujak
 ```
 
-### 2️⃣ Run Backend Locally
+### Run Backend Locally
 
 ```
 cd backend
 cargo run
 ```
 
-### 3️⃣ Run Backend with Docker
+### Run Backend with Docker
 
 ```
 docker-compose up --build
