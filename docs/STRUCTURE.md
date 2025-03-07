@@ -55,3 +55,43 @@ rujak/
 ├── .gitignore
 └── README.md
 ```
+
+## Backend Structure
+
+```
+src/
+├── controllers/
+│   ├── submission.rs
+│   ├── review.rs
+│   └── user.rs
+├── models/
+│   ├── submission.rs
+│   ├── reviewer.rs
+│   └── user.rs
+├── routes/
+│   ├── submission.rs
+│   ├── review.rs
+│   └── user.rs
+├── services/
+│   ├── submission_service.rs
+│   ├── review_service.rs
+│   └── user_service.rs
+├── utils/
+│   └── helpers.rs
+├── main.rs
+└── lib.rs
+```
+
+## Frontend Structure
+
+```
+boilerplate
+```
+
+## Scripts Structure
+
+```
+scripts/
+├── setup.sh
+└── docker-compose.yml
+```
