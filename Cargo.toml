@@ -6,8 +6,7 @@ edition = "2024"
 [workspace]
 members = [
     "backend",
-    "frontend",
-    "api"
+    "frontend"
 ]
 
 [dependencies]
