@@ -1,1 +1,85 @@
-/target
+# Rust/Cargo files
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Node.js dependencies (if frontend uses Node.js tooling)
+node_modules/
+dist/
+
+# Logs and debug files
+logs/
+*.log
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# Docker related
+*.dockerignore
+docker-compose.override.yml
+
+# Generated files
+coverage/
+*.cache
+
+# Frontend (if applicable)
+frontend/dist/
+frontend/pkg/
+frontend/pkg/
+
+# WASM build artifacts
+pkg/
+
+# Target directory (Rust compilation artifacts)
+target/
+
+# Cargo build directories
+**/target/
+Cargo.lock
+
+# Node modules (if using a JavaScript frontend)
+node_modules/
+
+# Generated files
+coverage/
+build/
+dist/
+
+# MacOS/Windows Files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# Cypress testing artifacts (if frontend testing included)
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Binary files
+*.exe
+*.dll
+*.so
+
+# GitHub Actions local artifacts
+.github/workflows/*.yml.bak
+
